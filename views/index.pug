@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  
+  script(src="javascripts/index.js")
+  script(src="https://code.highcharts.com/highcharts.js")
+  input(type="text" id="input")
+  button(id="submit") Submit
+  div(id="chart")
+  div(id="results")
